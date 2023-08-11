@@ -12,15 +12,16 @@
 <body>
 
     <section class="hero">
-        <nav>
-           <img class="logo" src="./src/images/web1.png" alt="piyush mohanta logo"/>
-            <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
-
+        <div class="nav-pane">
+            <nav>
+            <img class="logo" src="./src/images/web1.png" alt="piyush mohanta logo"/>
+                <ul>
+                    <a href="#about-me" class="list-item-nav-bar"><li class="list-item-li">About me</li></a>
+                    <a href="#projects" class="list-item-nav-bar"><li class="list-item-li">Projects</li></a>
+                    <a href="#contacts" class="list-item-nav-bar"><li class="list-item-li">Contacts</li></a>
+                </ul>
+            </nav>
+        </div>
         <div class="heroarea">
             <div class="hero-text">
                 <h1>Piyush Mohanta</h1>
@@ -45,17 +46,21 @@
                     </a>
                 </div>
             </div>
-
         </div>
     </section>
 
     <section class="sub-section" id="about-me">
-        <div class=""information>
+        <div class="information">
             <h2>About Me</h2>
-            <p>Hello, my name is Piyush. I'm a Computer Science Engineer and a Full Stack Developer</p>
+            <div>
+            <p>Hello, my name is Piyush.</p>
+            <p>I'm a CSE Graduate with a passion for programming and web-technology. I'm skilled in Python(Django/Flask/Selenium) and Full-stack web development
+(MongoDB/Express.js/RN). Learning AWS Cloud Computing, Linux CLI and aspiring DevOps Engineer. Looking to apply skills and continue growing in a
+challenging work environment.</p>
+        </div>
         </div>
         <div class="headshot-container">
-            <img class="headshot" src="./src/images/profile-pic.png" alt="Profile picture piyush mohanta"/>
+            <img class="headshot" src="./src/images/profile-pic-1.jpeg" alt="Profile picture piyush mohanta"/>
         </div>
     </section>
 

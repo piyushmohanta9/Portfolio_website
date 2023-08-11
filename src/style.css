@@ -7,13 +7,13 @@ section {
 }
 
 .logo {
-    height: 80px;
+    height: 70px;
     margin: 10px;
 }
 
 .hero {
     height: 100vh;
-    background-color: #222831;
+    background-color: #3f4f67;
     color: white;
     font-size: 40px;
 }
@@ -73,6 +73,8 @@ ul {
 
 li {
     text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 h1 {
@@ -145,6 +147,13 @@ p {
     margin-top: 25px;
 }
 
+.project-image:hover {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    margin-top: 12px;
+}
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
@@ -155,10 +164,24 @@ hr {
     color: #E84545;
 }
 
-a {
+.list-item-nav-bar {
     text-decoration: none;
     color: white;
 }
+
+.list-item-li:hover {
+    color: #E84545;
+}
+
+.nav-pane {
+    background-color: #1d2229;
+    margin-top: 0px;
+}
+
+.information {
+    
+}
+
 
 @media only screen and (max-width: 1000px){
     .project-container {
